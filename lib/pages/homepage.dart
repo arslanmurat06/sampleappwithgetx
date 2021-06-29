@@ -48,12 +48,12 @@ class HomePage extends StatelessWidget {
                     }),
               ),
             ),
-            Expanded(
-              flex: 1,
-              child: ElevatedButton(
-                child: Text("FavoriPage"),
-                onPressed: () => Get.to(FavoriPage()),
-              ),
+            ElevatedButton(
+              child: Text("FavoriPage"),
+              onPressed: () => Get.to(FavoriPage()),
+            ),
+            SizedBox(
+              height: 45,
             )
           ],
         ),
